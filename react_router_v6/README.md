@@ -1,1 +1,1 @@
-live link https://moviewebsiterreact.netlify.app/
+live link https://movieswebsitesreact.netlify.app/
