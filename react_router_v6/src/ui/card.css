@@ -1,0 +1,20 @@
+
+.card-container {
+  display: flex;               /* All children in one row */
+  justify-content: space-between; /* Equal space between cards */
+  gap: 20px;                   /* Gap between cards */
+  padding: 20px;
+}
+
+.card {
+  flex: 1;                     /* All cards take equal width */
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.h{
+    /* background-color: blue !important; */
+    min-height: 100%;
+}
