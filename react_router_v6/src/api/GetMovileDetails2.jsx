@@ -5,7 +5,7 @@ const getMovileDetails2 = async ({params}) => {
     const id = params.movieId;
   try{
    const response = await fetch(
-    `http://www.omdbapi.com/?i=${id}&apikey=${
+    `https://www.omdbapi.com/?i=${id}&apikey=${
     import.meta.env.VITE_API_KEY
     }`
   );
